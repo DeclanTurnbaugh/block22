@@ -1,5 +1,90 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+#party-container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.party {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.party h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.party p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.party button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.party button:hover {
+  background-color: #45a049;
+}
+
+.party-details {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.party-details h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.party-details p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.party-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.party-details li {
+  margin-bottom: 10px;
+}
+
+.close-button {
+  background-color: #d9534f;
+}
+
+.close-button:hover {
+  background-color: #c9302c;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .party {
+    padding: 15px;
+  }
+
+  .party button {
+    margin-right: 0;
+    margin-top: 10px;
+  }
 }
